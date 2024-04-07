@@ -1,0 +1,17 @@
+
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+
+# Redirecciones
+RedirectMatch 301 ^/contact_form/$ https://www.earmas.ga/
+RedirectMatch 301 ^/css/$ https://www.earmas.ga/
+RedirectMatch 301 ^/docs/$ https://www.earmas.ga/
+RedirectMatch 301 ^/fonts/$ https://www.earmas.ga/
+RedirectMatch 301 ^/images/$ https://www.earmas.ga/
+RedirectMatch 301 ^/js/$ https://www.earmas.ga/
+RedirectMatch 301 ^/soc/pic/$ https://www.earmas.ga/
+RedirectMatch 301 ^/soc/cv/$ https://www.earmas.ga/
+RedirectMatch 301 ^/contacts/$ https://www.earmas.ga/
+ErrorDocument 404 https://www.earmas.ga/a/wa/
+
+# Fin Redirecciones
